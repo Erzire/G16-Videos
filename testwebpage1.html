@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Video Page</title>
+  <title>Group 16 - NepTune Synthesizer - Final Demonstration and Demo Video</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -17,27 +17,46 @@
     h1 {
       margin-top: 40px;
     }
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
     .video-container {
-      margin-top: 20px;
+      margin-top: 0;
+      margin-bottom: 30px; /* Space between videos */
       width: 80%;
       max-width: 800px;
       aspect-ratio: 16 / 9;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Added a light shadow */
     }
     iframe {
       width: 100%;
       height: 100%;
       border: none;
+      border-radius: 8px; /* Slightly rounded corners */
     }
   </style>
 </head>
 <body>
-  <h1>Your Video Title Here</h1>
+  <h1>My Embedded Videos</h1>
+
+  <h2>Video 1</h2>
   <div class="video-container">
     <iframe
-      src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+      src="https://www.youtube.com/embed/CFH1LV-POwY"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
   </div>
+
+  <h2>Video 2</h2>
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/drCCvYmTiiw"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+
 </body>
 </html>
